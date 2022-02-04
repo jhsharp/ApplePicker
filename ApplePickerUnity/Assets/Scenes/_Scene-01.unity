@@ -323,6 +323,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4005573274353474563, guid: 0282d69ae9e5154409f49104fcca7669, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4005573274353474563, guid: 0282d69ae9e5154409f49104fcca7669, type: 3}
+      propertyPath: changeToChangeDirection
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4005573274353474563, guid: 0282d69ae9e5154409f49104fcca7669, type: 3}
+      propertyPath: secondsBetweenAppleDrops
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6330177976231181501, guid: 0282d69ae9e5154409f49104fcca7669, type: 3}
       propertyPath: m_Name
       value: Apple Tree
