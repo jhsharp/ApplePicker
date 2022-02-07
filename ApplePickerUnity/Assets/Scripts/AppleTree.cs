@@ -25,7 +25,7 @@ public class AppleTree : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("DropApple", 2f); // Call the DropApple function in 2 seconds
+        Invoke("DropApple", 2f); // call the DropApple function in 2 seconds
     }
 
     void DropApple()

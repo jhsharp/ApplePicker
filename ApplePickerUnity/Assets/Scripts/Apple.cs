@@ -3,7 +3,7 @@
  * Date Created Feb 3, 2022
  * 
  * Last Edited By: Jacob Sharp
- * Date Last Edited: Feb 3, 2022
+ * Date Last Edited: Feb 7, 2022
  * 
  * Description: Manages the falling apples
  ****/
@@ -27,7 +27,11 @@ public class Apple : MonoBehaviour
     {
         if (transform.position.y < bottomY) // destroy apples if they fall off the screen
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject); // destroy apples
+
+            GameObject gm = GameObject.Find("GameManager"); // call the apple destroyed function in the manager
+            ApplePicker apScript = gm.GetComponent<ApplePicker>();
+            apScript.AppleDestroyed();
         }
     }
 }
